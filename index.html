@@ -12,10 +12,10 @@
 <body>
 
   <!--menuBar div is the menu that will be showed from left side-->
-  <div class="menuBar myColor ">
+  <div class="menuBar myColor">
     <div class="row firRow">
       <div class="col-md-6">
-        <a href="#"><u>English</u></a> <i class="fas fa-flag-usa"></i>
+        <a id="english1">English</a> <i class="fas fa-flag-usa"></i>
       </div>
       <div class="col-md-6">
         <div class="float-right" id="closeLeftMenu">
@@ -24,62 +24,101 @@
       </div>
     </div>
     <div class="myUL">
-      <a href="#">
-        <li>
-          <h5>Register / Log In</h5>
-        </li>
-      </a>
-      <a href="index.html">
-        <li>
-          <h5>Home</h5>
-        </li>
-      </a>
-      <a href="#">
-        <li>
-          <h5>Winners</h5>
-        </li>
-      </a>
-      <a href="#">
-        <li>
-          <h5>Nominees</h5>
-        </li>
-      </a>
-      <a href="#">
-        <li>
-          <h5>Collections</h5>
-        </li>
-      </a>
-      <a href="#">
-        <li>
-          <h5>Personal Directory</h5>
-        </li>
-      </a>
-      <a href="#">
-        <li>
-          <h5>Jobs & Talent</h5>
-        </li>
-      </a>
-      <a href="#">
-        <li>
-          <h5>Blog</h5>
-        </li>
-      </a>
-      <a href="#">
-        <li>
-          <h5>eBooks & Publications</h5>
-        </li>
-      </a>
-      <a href="aboutUS/aboutUs.html">
-        <li>
-          <h5>About Us</h5>
-        </li>
-      </a>
-      <a href="#">
-        <li>
-          <h5>Conferences</h5>
-          <p>Toronto / 14-16 Jul 2020<br />San Francisco / 27-29 Oct 2020</p>
-        </li>
-      </a>
+      <div id="info">
+        <a href="#">
+          <li>
+            <h5>Register / Log In</h5>
+          </li>
+        </a>
+        <a href="index.html">
+          <li>
+            <h5>Home</h5>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <h5>Winners</h5>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <h5>Nominees</h5>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <h5>Collections</h5>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <h5>Personal Directory</h5>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <h5>Jobs & Talent</h5>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <h5>Blog</h5>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <h5>eBooks & Publications</h5>
+          </li>
+        </a>
+        <a href="aboutUS/aboutUs.html">
+          <li>
+            <h5>About Us</h5>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <h5>Conferences</h5>
+            <p>Toronto / 14-16 Jul 2020<br />San Francisco / 27-29 Oct 2020</p>
+          </li>
+        </a>
+      </div>
+      <div id="languages" class="d-none">
+        <a href="#">
+          <li>
+            <h5>English</h5>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <h5>Español - Spanish</h5>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <h5>한국어 - Korean</h5>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <h5>中文 - Chinese</h5>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <h5>日本語 - Japanese</h5>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <h5>Português - Portuguese</h5>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <h5>Français - French</h5>
+          </li>
+        </a>
+      </div>
     </div>
   </div>
 
@@ -93,21 +132,22 @@
 
       <nav class="navbar navbar-expand-sm">
 
-        <button class="navbar-toggler navbar-light d-lg-none" type="button" data-toggle="collapse"
+        <!-- <button class="navbar-toggler navbar-light d-lg-none" type="button" data-toggle="collapse"
           data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
 
         <div class="container-fluid myColor" id="firstLook">
+
           <div class="row d-flex align-items-center w-100 text-center">
-            <div class="col-md-1 lang">
-              <a href="#">ENGLISH</a>
+            <div class="col-sm-1 lang">
+              <a id="english"><u>ENGLISH</u></a>
             </div>
-            <div class="col-md-10 fistMessage">
+            <div class="col-sm-10 fistMessage">
               The awards of design, creativity and innovation on the internet
             </div>
-            <div class="col-md-1">
+            <div class="col-sm-1">
               <div class="logos">
                 <a href="#">
                   <i class="fab fa-instagram"></i>
@@ -121,6 +161,7 @@
               </div>
             </div>
           </div>
+
         </div>
 
 
@@ -134,13 +175,14 @@
             <i class="fas fa-search ml-4" id="searchBtn"></i>
           </div>
 
-          <div class="myColor ml50px" id="websiteCenter"><a href="#">
+          <div class="myColor ml50px" id="websiteCenter"><a href="index.html">
               <h3 id="websiteName">ROUTE WINNERS.</h3>
             </a></div>
 
           <div class="buttons" id="buttons">
             <h6 class="myColor">REGISTER/LOG IN</h6>
-            <div class="btnClass text-white">SUBMIT YOUR SITE!</div>
+            <div class="btnClass text-white"><a href="submitSite/submitSite.html" target="blank"
+                class="text-white">SUBMIT YOUR SITE!</a></div>
           </div>
 
         </div>
@@ -169,7 +211,8 @@
     <footer class="myColor">
       <div class="container-fluid sec1">
         <div class="row">
-          <div class="col-md-6">
+
+          <div class="col-sm-6 mb-4">
             <h6>The awards for design, creativity and innovation on the Internet</h6>
             <div class="anchors my-4">
               <a href="#">Directory <div class="d-inline ball mr-2">2</div> </a>
@@ -188,13 +231,15 @@
               <a href="#" class="mr-2">Linkedin</a>
             </div>
           </div>
-          <div class="col-md-6">
+
+          <div class="col-sm-6">
             <div class="float-right toronto">
               <h6 class="d-inline">Next Conferences<i class="far fa-calendar-alt mx-2"></i>
                 <a href="#">Toronto</a><span class="mx-2">and</span><a href="#">San Francisco</a></h6>
             </div>
             <div class="clearfix"></div>
           </div>
+
         </div>
       </div>
 
@@ -207,7 +252,7 @@
           <a href="#" class="mr-2">Cookies Policy</a>
           <a href="#" class="mr-2">Legal Terms</a>
           <a href="#" class="mr-2">Privacy Policy</a>
-          <a href="#">English <i class="fas fa-flag-usa"></i> </a>
+          <a id="english">English <i class="fas fa-flag-usa"></i> </a>
         </div>
         <div class="float-right">
           <p>Private Cloud by <a href="#"><b>Stackscale</b></a></p>
