@@ -1,0 +1,13 @@
+* Colors *
+#FBBEBE
+#65617D
+#6C63FF
+#6834CE
+#000000
+#F4EB42
+#707070
+--------------------
+* Fonts *
+Segoe UI
+Raleway
+JF Flat
